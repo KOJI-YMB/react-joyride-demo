@@ -3,9 +3,9 @@ import { Provider } from "react-redux";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { createStore } from "redux";
 import { createRoot } from "react-dom/client";
-import { Home, RouteA, RouteB } from "./routes";
+import { Home, RouteA, RouteB } from "./components";
 import { rootReducer } from "./reducers";
-import JoyrideSample from "./JoyrideSample";
+import JoyrideSample from "./components/Joyride/JoyrideSample";
 
 const rootElement = document.getElementById("root");
 const root = createRoot(rootElement);

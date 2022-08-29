@@ -3,8 +3,7 @@ import Joyride from "react-joyride";
 import { Outlet, useNavigate } from "react-router-dom";
 import { connect } from "react-redux";
 import { steps } from "./Tour";
-import "./styles.css";
-import { setReset, setStepIndex } from "./reducers/guideTour";
+import { setReset, setStepIndex } from "../../reducers/guideTour";
 
 const JoyrideSample = ({ run, stepIndex, dispatch }) => {
   const navigate = useNavigate();
