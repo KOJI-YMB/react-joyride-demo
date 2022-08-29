@@ -1,8 +1,8 @@
 import { connect } from "react-redux";
 
-const RouteA = ({ run, stepIndex, tourCompleted }) => {
+const Home = ({ run, stepIndex, tourCompleted }) => {
   console.log(run, stepIndex, tourCompleted);
-  return <h1 id="routeA">Route A</h1>;
+  return <h1 id="home">Home</h1>;
 };
 
 const mapStateToProps = (state) => ({
@@ -11,4 +11,4 @@ const mapStateToProps = (state) => ({
   tourCompleted: state.UI.tourCompleted,
 });
 
-export default connect(mapStateToProps)(RouteA);
+export default connect(mapStateToProps)(Home);

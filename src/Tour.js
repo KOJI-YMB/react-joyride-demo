@@ -1,16 +1,14 @@
-
-
 export const steps = [
   {
-    target: '#home',
-    content: 'ホーム画面です'
+    target: "#home",
+    content: "This is home page",
   },
   {
-    target: '#routeA',
-    content: 'こちらはルートAです'
+    target: "#routeA",
+    content: "This is Route A",
   },
   {
-    target: '#routeB',
-    content: 'こちらはルートBです。'
-  }
-]
+    target: "#routeB",
+    content: "This is Route B",
+  },
+];
